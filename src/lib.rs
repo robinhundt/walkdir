@@ -800,7 +800,7 @@ impl IntoIter {
     /// passed to this predicate.
     ///
     /// Note that if the iterator has `contents_first` enabled, then this
-    /// method is no different than calling the standard `Iterator::filter`
+    /// method is no different than calling the standard `Iterator::filter_ok`
     /// method (because directory entries are yielded after they've been
     /// descended into).
     ///
@@ -1101,7 +1101,7 @@ where
     /// passed to this predicate.
     ///
     /// Note that if the iterator has `contents_first` enabled, then this
-    /// method is no different than calling the standard `Iterator::filter`
+    /// method is no different than calling the standard `Iterator::filter_ok`
     /// method (because directory entries are yielded after they've been
     /// descended into).
     ///
